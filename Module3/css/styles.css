@@ -3,6 +3,7 @@ body {
   color: black;
   background-color: white;
   font-family: "Comic Sans MS";
+
 }
 
 /** HEADER **/
@@ -39,14 +40,16 @@ body {
 }
 
 #nav-list a { /* chicken etc*/
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
   text-align: center;
   border: 1px solid grey;
+
 }
 
-#nav-list a span {
+#nav-list a  {
   font-size: 0.9em;
+
 }
 
 
@@ -60,30 +63,45 @@ body {
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+
+
 }
+
+
+
+
+
 /* END HEADER */
 
 /* HOME PAGE */
 
-.container .center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.container-fluid  h2 {
+
   margin-top: 90px;
   text-align: center;
   font-size: 1.5em;
 
 }
 
+.container-fluid {
 
-.container .chicken {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+
+
+}
+
+
+.container-fluid .box {
 	margin-top: 30px;
   background-color: grey;
 
 
 }
 
-.container .title {
+.container-fluid .title {
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.25em;
@@ -92,11 +110,5 @@ body {
 
 /* END HOME PAGE */
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
-    height: 675px;
-  }
-}
+
 
